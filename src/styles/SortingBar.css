@@ -1,0 +1,15 @@
+.sorting-bar {
+  padding: 20px;
+  background-color: #f7f7f7;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.sorting-bar label {
+  display: block;
+}
+
+.sorting-bar select {
+  padding: 5px;
+  font-size: 14px;
+}

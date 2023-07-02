@@ -1,0 +1,58 @@
+.flight-search-result {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .flight-result-container {
+    flex: 1;
+    margin-left: 20px;
+  }
+  
+  .flight-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .view-all-flights-btn {
+    margin-top: 10px;
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .flight-item {
+    background-color: #f7f7f7;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .flight-item-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .flight-item-info img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .flight-airline {
+    font-weight: bold;
+  }
+  
+  .flight-time {
+    font-size: 12px;
+  }
+  
+  .flight-item-price,
+  .flight-item-stops {
+    margin-top: 5px;
+    font-size: 14px;
+  }
+  
